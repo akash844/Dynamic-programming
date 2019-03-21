@@ -10,8 +10,7 @@ long long int fibo(int n,long long int fib[])
 	{
 		fib[n]=fibo(n-1,fib)+fibo(n-2,fib);
 		return fib[n];
-	}
-		
+	}		
 }
 int main()
 {
