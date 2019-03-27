@@ -2,7 +2,7 @@
 using namespace std;
 long long int fibo(int n,long long int fib[])
 {
-	if (n==1 || n==2)
+	if (n<=2)
 		return 1;
 	else if (fib[n]!=0)
 		return fib[n];
